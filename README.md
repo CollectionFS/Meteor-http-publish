@@ -7,7 +7,7 @@ This package add the abillity to add `HTTP` server publish to your project. It's
 HTTP.publish creates a http crud restpoint for a collection *- only one cursor is allowed pr. publish*
 
 ###Security
-All `CUD` methods are the exact same as the `ddp` methods handlers - This means that `Meteor.allow` and `Meteor.deny` is setting the access rules for both `ddp` and `http` collection methods.
+All `CRUD` methods are the exact same as the `ddp` methods handlers - This means that `Meteor.allow` and `Meteor.deny` are setting the access rules for both `ddp` and `http` collection methods.
 
 ###Fully mounted
 If handed a collection and a publish function the HTTP.publish will mount on follow urls and methods:
