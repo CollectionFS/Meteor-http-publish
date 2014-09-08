@@ -1,3 +1,4 @@
 .build*
 smart.lock
 /nbproject/
+.idea/
